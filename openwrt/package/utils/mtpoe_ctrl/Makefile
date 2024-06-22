@@ -5,13 +5,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mtpoe_ctrl
-PKG_SOURCE_VERSION:=a3cbab7d8a7cf8aaace977b5ff8a307b9a10a3c5
-PKG_MIRROR_HASH:=f7ea06ee8bf091011bfd36391747e8eedaea5e525da885c08757506456ae9774
 PKG_VERSION:=1.15.1
-PKG_RELEASE:=20
+PKG_RELEASE:=21
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/prudy/mtpoe_ctrl.git
+PKG_SOURCE_URL:=https://github.com/B0bby31/mtpoe_ctrl.git
+PKG_SOURCE_DATE:=2024-06-22
+PKG_SOURCE_VERSION:=master
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 
